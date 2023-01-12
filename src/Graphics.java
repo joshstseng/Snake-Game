@@ -80,7 +80,7 @@ public class Graphics extends JPanel implements ActionListener {
         }
     }
 
-    protected void move() {
+    protected void move() { // test
         for (int i = snakeLength; i > 0; i--) {
             snakePosX[i] = snakePosX[i-1];
             snakePosY[i] = snakePosY[i-1];
